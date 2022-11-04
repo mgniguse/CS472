@@ -1,0 +1,32 @@
+
+h1{
+    text-decoration: underline;
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+    color: rgb(164, 164, 164);
+}
+h2{
+    text-decoration: underline;
+    font-family: 'Lucida Sans Unicode', Helvetica, Arial,sans-serif;
+    background-color: rgb(240, 240, 240);
+    color: rgb(164, 164, 164);
+}
+pre{
+    font-family: monospace;
+}
+.LINKS{
+    
+}
+#uc{
+    padding-left: 50px;
+}
+
+.validator{
+    float:right;
+    display:flex;
+    clear:right;
+}
+footer{
+    float:left;
+    clear:left;
+}

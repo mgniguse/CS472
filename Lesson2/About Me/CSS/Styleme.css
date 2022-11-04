@@ -1,0 +1,37 @@
+
+body{
+    text-decoration: none;
+    margin:0em;
+    padding: 0em;
+    background-color: beige;
+    font-size: large;
+    font-family: "Montserrat";
+}
+#msgie{
+    display: flex;
+}
+#movie{
+    text-decoration: none;
+}
+
+h1{
+    color:blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+strong{
+    color: yellowgreen;
+}
+h3{
+    color: brown;
+    font-family:cursive;
+}
+em{
+    color: darkmagenta;
+}
+h4{
+    color :darkgreen
+}
+footer{
+    float: left;
+    float: left;
+}
