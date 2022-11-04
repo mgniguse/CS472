@@ -1,0 +1,15 @@
+body h1{
+    font-weight: bolder;
+    font-size: large;
+    text-align: center;
+    text-decoration: wavy;
+    color:blue;
+}
+
+
+nav ul li a{
+    text-decoration: dotted;
+    text-align: left;
+    font-weight: bold;
+    color: green;
+}
