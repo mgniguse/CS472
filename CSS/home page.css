@@ -1,13 +1,18 @@
-body h1{
+body{
+    background-color: bisque;
+}
+h1{
+    position: relative;
+    background-color: darkturquoise;
     font-weight: bolder;
     font-size: large;
     text-align: center;
     text-decoration: wavy;
-    color:darkturquoise;
+    color:black;
 }
 
 
-nav ul li a{
+a{
    
     text-align: left;
     font-weight: bold;
