@@ -7,10 +7,7 @@ body{
     font-size: large;
     font-family: "Montserrat";
 }
-#msgie{
-    display: flex;
-}
-#movie{
+.movie{
     text-decoration: none;
 }
 
@@ -29,7 +26,7 @@ em{
     color: darkmagenta;
 }
 h4{
-    color :darkgreen
+    color :blueviolet
 }
 footer{
     float: left;
