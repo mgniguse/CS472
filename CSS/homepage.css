@@ -2,12 +2,12 @@ body{
     background-color: bisque;
 }
 h1{
+    
     position: relative;
     background-color: darkturquoise;
     font-weight: bolder;
     font-size: large;
     text-align: center;
-    text-decoration: wavy;
     color:black;
 }
 
