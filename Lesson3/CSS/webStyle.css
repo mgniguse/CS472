@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+/* @import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"); */
 
 
 body {
@@ -10,7 +10,6 @@ body {
     padding: 0;
     font-family: system-ui,'Courier New', sans-serif;
 }
-
 
 a {
     text-decoration: none;
@@ -37,35 +36,28 @@ a {
 nav {
     width: 100vw;
     height: 60px;
-  
-
 }
-
 #navs {
     padding-left: 800px;
     text-align: center;
     
 
 }
-
 nav a {
     /* font-size: larger; */
     vertical-align: middle;
     padding-right: 1em;
 }
-
 span {
     font-size: 19px;
     padding-right: 8px;
     vertical-align: middle;
 }
-
 header {
     background-color: rgb(55, 71, 119);
     padding: 1em;
     color: white;
     text-align: center;
-    
 }
 .container{
     margin-left: 50px;
@@ -74,21 +66,17 @@ header {
 #leftbox,#rightbox{
     margin-top: 50px;
     margin-inline: -3px;
-
-    /* margin-left: 45px; */
     border-inline: 1px solid rgb(225, 225, 225);
-
-    /* border-collapse: collapse; */
     display: inline-block;
     width: 700px;
     height: 450px;
-    text-align: center;
-   
+    text-align: center; 
 }
 #leftbox{
     border-left: 0ch;
 }
 #rightbox{
+    color: rgb(102, 102, 102);
     border-right: 0;
     vertical-align: top ;
 }
@@ -134,7 +122,6 @@ div p{
     padding-top: 10px;
     vertical-align: middle;
 }
-
 #l{
     color: gray;
     font-weight: lighter;
@@ -166,8 +153,6 @@ div p{
     padding-right: 135px;
     margin-bottom: 1px;    
 }
-
-
 h3{
     padding-right: 30px;
     font-size: 30px;
@@ -182,8 +167,11 @@ h3{
 #pass{
     color: rgb(130, 149, 173);
 }
-blue{
+.blue{
     text-decoration: none;
     color: rgb(130, 149, 173);
+}
+footer{
+    float: right;
 }
 
