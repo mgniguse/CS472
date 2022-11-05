@@ -53,7 +53,7 @@ span {
 }
 header {
     font-family: 'Times New Roman', Times, serif;
-    font-size: x-large;
+    font-size: large;
     background-color: rgb(55, 71, 119);
     padding: 4em;
     color: white;
@@ -174,7 +174,5 @@ h3{
 footer{
     float: right;
 }
-h2{
-    
-}
+
 
