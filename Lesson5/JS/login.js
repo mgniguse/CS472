@@ -1,3 +1,6 @@
+/**
+ * app.js
+ */
 window.onload = function () {
 
     const form = document.getElementById("form");

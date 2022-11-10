@@ -1,3 +1,6 @@
+/**
+ * app.js
+ */
 window.onload = setInterval(showDate,1000);
 
 function showDate(){

@@ -1,8 +1,5 @@
 /**
  * app.js
- * 
- * @author abel
- * @since 2022-11-09
  */
 window.onload = function(){
     const form = document.getElementById("form");
