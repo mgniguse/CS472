@@ -1,0 +1,8 @@
+/* style2.css */
+
+h1.not-highlighted {
+    color: black;
+}
+h1.highlighted {
+    color: blue;
+}

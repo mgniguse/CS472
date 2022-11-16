@@ -1,0 +1,44 @@
+
+main{
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+
+#but{
+    float: right;
+}
+
+#check{
+    /* justify-content: left; */
+    margin-right: 98%;
+}
+
+#cl{
+    margin-top:8% ;
+}
+
+footer div.right-footer {
+    display: flex;
+    /* width: 50vw; */
+    justify-content: flex-end;
+    margin-right: 2em;
+    flex: 1;
+}
+
+footer div.left-footer {
+    /* width: 50vw; */
+    margin-left: 2em;
+    flex: 1;
+}
+
+footer{
+    justify-content: flex-end;
+    margin-top: 16%;
+    background-color: rgb(218, 231, 159);
+}
+
+
+#le{
+    float: right;
+}

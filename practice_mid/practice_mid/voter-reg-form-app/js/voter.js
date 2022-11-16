@@ -1,14 +1,10 @@
-/**
- * js.app;
- */
-
 const voterNo = document.getElementById("voterNo");
 const firstName = document.getElementById("firstName");
 const lastName = document.getElementById("lastName");
 const studyLevel = document.getElementById("levelOfStudy");
-const form = document.getElementsByTagName("form");
+const form = document.getElementById("form");
 
-form[0].onsubmit = function (event) {
+form.onsubmit = function (event) {
     event.preventDefault()
     const message = document.getElementById("message2");
     
@@ -17,15 +13,7 @@ form[0].onsubmit = function (event) {
     Voter Number: ${voterNo.value}
     First Name: ${firstName.value}
     Last Name: ${lastName.value}
-    Level of Study: ${studyLevel.value}
+    Level of Study: ${studyLevel.value} 
     
-    `
-};
-// pop up
-// alert( `
-// Voter Number: ${voterNo.value}
-// First Name: ${firstName.value}
-// Last Name: ${lastName.value}
-// Level of Study: ${studyLevel.value} 
-
-// `);
+    `;
+}

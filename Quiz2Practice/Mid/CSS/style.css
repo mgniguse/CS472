@@ -1,0 +1,33 @@
+
+.navbar {
+ 
+    background-color: black;
+    
+}
+.leftbar{
+    color:white;
+    text-decoration: none;
+
+}
+.WapLink {
+    color: white;
+    margin-right: 50px;
+
+}
+.link {
+
+    color: white;
+     margin-right: 30px;
+    font-size: 19px; 
+}
+.rightbar {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.btn{
+    background-color: grey;
+    color: white;
+}

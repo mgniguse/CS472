@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/5.2.2/cerulean/bootstrap.min.css"
+        integrity="sha512-9u5YwIpV3mbAd1ocXZRz1Ezzq8DGicGD+PuUkUiTtTU3Yc95IMc66/Txe/iNxGTxckPu60RQw8zphvVqYiRfTg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/style.css">
+    <script defer src="./js/holyCross.js"></script>
+    <!-- <script src="./js/ff.js"></script> -->
+
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-primary">
+            <div class="container-fluid">
+                <label>
+                    <a class="navbar-brand" href="#">HolyCross Medical Center</a>
+                    <a class="navbar-brand" href="../holyCross.html">Home</a>
+                    <a class="navbar-brand" href="./reg.html">Patients</a>
+                </label>
+                <a class="navbar-brand" href="#">Welcome, Guest</a>
+            </div>
+        </nav>
+    </header>
+    <main id="main">
+
+        <div class="div-content">
+            <h3>Patients Registration</h3>
+            <hr>
+            <form action="#" method="post" id="form">
+
+                <div>
+                    <label for="patient">*Patient ID No</label>
+                    <input type="text" class="form-control" id="patient" placeholder="EP-XXX-XXXXXX" pattern="^(P|EP)-[\d]{3}-[\d]{6}$" required>
+                    <small>Enter the Patient ID Number, in the speciefic format</small>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <label for="firstName">*Fist Name:</label><br>
+                        <input type="text" id="firstName" placeholder="Enter First Name:" class="form-control" required>
+
+                        <small>Enter the Patient's First Name</small>
+                    </div>
+                    <div class="col-sm-4">
+                        <label for="middle">Middle Initial(s)</label>
+                        <div>
+                            <input type="text" name="middle" id="middle" placeholder="Enter Middle Initial(s)"
+                                class="form-control">
+                        </div>
+
+                    </div>
+                    <div class="col-sm-4">
+                        <label for="lastName">*Last Name</label><br>
+                        <input type="text" name="lastName" id="lastName" placeholder="Enter Last Name"
+                            class="form-control" required>
+
+                        <small>Enter the Patient's Last Name</small>
+
+                    </div>
+
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <label for="*Date of birth">*Date of Birth:</label>
+                        <div>
+                            <input type="date" id="birth" placeholder="mm/dd/yyyy:" class="form-control" required>
+                        </div>
+
+                        <small>Enter the Patient's Date of Birth</small>
+                    </div>
+                    <div class="col-sm-4">
+                        <label for="dep">*Department:</label>
+                        <div>
+                            <select name="dep" id="dep" class="form-control" required>
+                                <option value="">Select...</option>
+                                <option value="Cardiology">Cardiology</option>
+                                <option value="Ear, Nose and Throat">Ear, Nose and Throat</option>
+                                <option value="Primary Care">Primary Care</option>
+                                <option value="[Unassigned]">[Unassigned]</option>
+                            </select>
+                            <small>Select the department providing care</small>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <label for="out-patient">*Is this an out-patient?</label>
+                        <div>
+                            <input type="radio" value="yes" name="radio" id="yes" required> Yes
+                            <input type="radio" value="no" name="radio" id="no" required> No
+                        </div>
+                    </div>
+
+                </div>
+                <br>
+                <div>
+
+                    <div id="but">
+                        <input type="submit" value="Reset">
+                        <input type="submit" value="Register Patient">
+                    </div>
+
+                </div>
+            </form>
+
+            <div>
+                <!-- table here -->
+                <!-- <div class="row" id="cl">
+                    <div class="col">
+                        <label for=""> <input type="checkbox" name="" id="">Show Elderly Pateints only</label>
+                    </div>
+                    <div class="col">
+                        <label><input type="checkbox" name="" id="">Show out-Patients only</label>
+                    </div>
+                </div> -->
+            </div>
+
+        </div>
+    </main>
+    <footer>
+        <div class="left-footer">
+            <span>Filmon Issak ::: CS472-WAP</span>
+        </div>
+
+        <div class="right-footer">
+            <span>&copy; HCMC November 2022</span>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>

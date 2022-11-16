@@ -1,0 +1,45 @@
+.navbar {
+ 
+    background-color: black;
+    color: white;
+}
+.rightbar {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}  
+.navbar{
+        text-decoration: none;
+}
+.link {
+
+    color: white;
+     margin-right: 30px;
+    font-size: 19px; 
+}
+
+.radio2{
+    
+}
+.cust{
+    width: 80%;
+    
+}
+.navbar2{
+    margin-left: 5em;
+
+}
+#box{
+    width: 64%;
+}
+#id1{
+  background-color: rgb(108, 117, 125);
+  color: white;
+}
+
+#id2{
+    background-color: rgb(11, 94, 215);
+    color: white;
+  }
