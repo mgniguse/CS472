@@ -9,7 +9,7 @@ const PORT = 9000;
 const app = express();
 
 app.use(express.urlencoded({ extended: false }));
-app.use(express.static("./vews"));
+// app.use(express.static("./vews"));
 
 app.post("/submit-Form", function (req, res) {
   const first = req.body.first;

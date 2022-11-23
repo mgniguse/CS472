@@ -1,0 +1,25 @@
+header{
+    background-color: rgb(49, 165, 231);
+}
+body {
+    margin-bottom: 30px;
+}
+.art{
+    color: rgb(49, 165, 231);
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 10px;
+    background-color: rgb(245, 245, 245);
+    line-height: 30px;
+}
+#divBannerImage {
+    width: 100%;
+    height: 176px;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
